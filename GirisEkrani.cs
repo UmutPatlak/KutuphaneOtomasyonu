@@ -10,29 +10,33 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyonu
 {
-    public partial class Form1: Form
+    public partial class GirisEkrani: Form
     {
-        public Form1()
+        public GirisEkrani()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            KayitEkrani kayit = new KayitEkrani();
-            kayit.Show(); 
-
+            Form1 frm1 = new Form1();
+            frm1.Show(); 
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void GirisEKrani_Load(object sender, EventArgs e)
         {
-            UyeKayit uye = new UyeKayit();
-            uye.Show(); 
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
+        {
+       
+
+
+        }
+
+        private void btnPersonel_Click(object sender, EventArgs e)
         {
 
         }
