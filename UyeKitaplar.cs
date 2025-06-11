@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyonu
 {
-    public partial class UyeKayit: Form
+    public partial class UyeKitaplar: Form
     {
-        public UyeKayit()
+        public UyeKitaplar()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

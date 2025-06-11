@@ -72,6 +72,12 @@
     <Compile Include="UyeKayit.Designer.cs">
       <DependentUpon>UyeKayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="UyeKitaplar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeKitaplar.Designer.cs">
+      <DependentUpon>UyeKitaplar.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

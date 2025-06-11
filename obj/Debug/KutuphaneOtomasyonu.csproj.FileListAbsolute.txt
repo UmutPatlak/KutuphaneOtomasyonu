@@ -2,7 +2,6 @@ C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\Kutuphan
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\KutuphaneOtomasyonu.exe
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\KutuphaneOtomasyonu.pdb
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.csproj.AssemblyReference.cache
-C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.Form1.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.KayitEkrani.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.Properties.Resources.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.csproj.GenerateResource.cache
@@ -12,3 +11,4 @@ C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\Kutuphan
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.GirisEKrani.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.UyeKayit.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.Program.resources
+C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.PersonelGirisEkrani.resources
