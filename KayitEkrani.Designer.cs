@@ -42,6 +42,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -132,7 +134,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(27, 16);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Tur";
+            this.label5.Text = "Tür";
             // 
             // textBox6
             // 
@@ -150,11 +152,29 @@
             this.label6.TabIndex = 7;
             this.label6.Text = "Kitap Sayfasi";
             // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(238, 264);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 22);
+            this.textBox7.TabIndex = 14;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(130, 270);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(106, 16);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Kitap Kayit Tarihi";
+            // 
             // KayitEkrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1122, 550);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox5);
@@ -170,6 +190,7 @@
             this.Controls.Add(this.label1);
             this.Name = "KayitEkrani";
             this.Text = "KayitEkrani";
+            this.Load += new System.EventHandler(this.KayitEkrani_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,5 +212,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label7;
     }
 }

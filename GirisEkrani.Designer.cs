@@ -32,17 +32,17 @@
             this.btnOgrenci = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelogrenci = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.kullnci = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelpersonel = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.kullnci = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelogrenci.SuspendLayout();
             this.panelpersonel.SuspendLayout();
@@ -90,6 +90,48 @@
             this.panelogrenci.Size = new System.Drawing.Size(272, 252);
             this.panelogrenci.TabIndex = 16;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(49, 175);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(220, 35);
+            this.button2.TabIndex = 22;
+            this.button2.Text = "Giris Yap";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 121);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 16);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Şifre :";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(94, 91);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(139, 22);
+            this.textBox2.TabIndex = 17;
+            // 
+            // kullnci
+            // 
+            this.kullnci.AutoSize = true;
+            this.kullnci.Location = new System.Drawing.Point(6, 97);
+            this.kullnci.Name = "kullnci";
+            this.kullnci.Size = new System.Drawing.Size(85, 16);
+            this.kullnci.TabIndex = 19;
+            this.kullnci.Text = "Kullanıcı Adı :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(94, 127);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(139, 22);
+            this.textBox1.TabIndex = 18;
+            // 
             // panelpersonel
             // 
             this.panelpersonel.Controls.Add(this.button3);
@@ -97,7 +139,7 @@
             this.panelpersonel.Controls.Add(this.textBox3);
             this.panelpersonel.Controls.Add(this.label6);
             this.panelpersonel.Controls.Add(this.textBox4);
-            this.panelpersonel.Location = new System.Drawing.Point(471, 259);
+            this.panelpersonel.Location = new System.Drawing.Point(353, 262);
             this.panelpersonel.Name = "panelpersonel";
             this.panelpersonel.Size = new System.Drawing.Size(354, 255);
             this.panelpersonel.TabIndex = 23;
@@ -144,59 +186,17 @@
             this.textBox4.Size = new System.Drawing.Size(139, 22);
             this.textBox4.TabIndex = 18;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(49, 175);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(220, 35);
-            this.button2.TabIndex = 22;
-            this.button2.Text = "Giris Yap";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 121);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 16);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Şifre :";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(94, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(139, 22);
-            this.textBox2.TabIndex = 17;
-            // 
-            // kullnci
-            // 
-            this.kullnci.AutoSize = true;
-            this.kullnci.Location = new System.Drawing.Point(6, 97);
-            this.kullnci.Name = "kullnci";
-            this.kullnci.Size = new System.Drawing.Size(85, 16);
-            this.kullnci.TabIndex = 19;
-            this.kullnci.Text = "Kullanıcı Adı :";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(94, 127);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 22);
-            this.textBox1.TabIndex = 18;
-            // 
             // GirisEkrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(1067, 621);
-            this.Controls.Add(this.panelpersonel);
             this.Controls.Add(this.panelogrenci);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnOgrenci);
             this.Controls.Add(this.btnPersonel);
+            this.Controls.Add(this.panelpersonel);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "GirisEkrani";
             this.Text = "Giris Ekrani";

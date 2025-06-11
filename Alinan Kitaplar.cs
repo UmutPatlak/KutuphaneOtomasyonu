@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyonu
 {
-    public partial class UyeKitaplar: Form
+    public partial class Alinan_Kitaplar: Form
     {
-        public UyeKitaplar()
+        public Alinan_Kitaplar()
         {
             InitializeComponent();
         }

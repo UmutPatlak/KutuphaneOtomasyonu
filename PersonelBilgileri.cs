@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyonu
 {
-    public partial class KayitEkrani: Form
+    public partial class PersonelBilgileri: Form
     {
-        public KayitEkrani()
+        public PersonelBilgileri()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Basariyla Kaydedildi");
-        }
-
-        private void KayitEkrani_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

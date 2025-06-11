@@ -36,5 +36,12 @@ namespace KutuphaneOtomasyonu
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            PersonelBilgileri bilgi = new PersonelBilgileri();
+            bilgi.Show(); 
+
+        }
     }
 }

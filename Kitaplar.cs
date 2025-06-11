@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyonu
 {
-    public partial class KayitEkrani: Form
+    public partial class Kitaplar: Form
     {
-        public KayitEkrani()
+        public Kitaplar()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Basariyla Kaydedildi");
+
         }
 
-        private void KayitEkrani_Load(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }

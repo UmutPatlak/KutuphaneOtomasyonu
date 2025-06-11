@@ -32,10 +32,11 @@ namespace KutuphaneOtomasyonu
 
         private void button4_Click(object sender, EventArgs e)
         {
+            panelogrenci.BringToFront();
+
             panelpersonel.Visible = false; 
 
             panelogrenci.Visible = true;
-            panelogrenci.BringToFront();
 
 
 
@@ -43,10 +44,12 @@ namespace KutuphaneOtomasyonu
 
         private void btnPersonel_Click(object sender, EventArgs e)
         {
+            panelpersonel.BringToFront();
+
             panelogrenci.Visible = false;
 
             panelpersonel.Visible = true;
-            panelpersonel.BringToFront();
+
 
         }
 
@@ -60,7 +63,7 @@ namespace KutuphaneOtomasyonu
         private void button2_Click(object sender, EventArgs e)
         {
 
-            UyeKitaplar uye = new UyeKitaplar();
+            UyeProfilBilgileri uye = new UyeProfilBilgileri();
             uye.Show();
 
         }
