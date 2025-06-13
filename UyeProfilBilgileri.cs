@@ -19,6 +19,8 @@ namespace KutuphaneOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Kitaplar kitaplar = new Kitaplar();
+            kitaplar.Show(); 
 
         }
 

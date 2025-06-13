@@ -57,7 +57,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(3, 9);
             this.label1.Name = "label1";
@@ -67,7 +67,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -81,7 +81,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 46);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Kitaplar";
+            this.button1.Text = "Tum Kitaplar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

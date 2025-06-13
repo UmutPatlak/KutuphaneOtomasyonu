@@ -17,10 +17,7 @@ namespace KutuphaneOtomasyonu
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Basariyla Kaydedildi");
-        }
+
 
         private void KayitEkrani_Load(object sender, EventArgs e)
         {

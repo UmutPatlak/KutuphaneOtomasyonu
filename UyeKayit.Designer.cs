@@ -224,7 +224,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel1.Controls.Add(this.label11);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
