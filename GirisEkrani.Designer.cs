@@ -143,6 +143,7 @@
             this.panelpersonel.Name = "panelpersonel";
             this.panelpersonel.Size = new System.Drawing.Size(354, 255);
             this.panelpersonel.TabIndex = 23;
+            this.panelpersonel.Paint += new System.Windows.Forms.PaintEventHandler(this.panelpersonel_Paint);
             // 
             // button3
             // 

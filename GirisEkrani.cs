@@ -19,8 +19,7 @@ namespace KutuphaneOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PersonelGirisEkrani frm1 = new PersonelGirisEkrani();
-            frm1.Show(); 
+          
 
         }
 
@@ -55,8 +54,9 @@ namespace KutuphaneOtomasyonu
 
         private void button3_Click(object sender, EventArgs e)
         {
-            PersonelGirisEkrani frm1 = new PersonelGirisEkrani();
-            frm1.Show(); 
+            PersonelGiris giris = new PersonelGiris();
+            giris.Show(); 
+
 
         }
 
@@ -65,6 +65,11 @@ namespace KutuphaneOtomasyonu
 
             UyeProfilBilgileri uye = new UyeProfilBilgileri();
             uye.Show();
+
+        }
+
+        private void panelpersonel_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

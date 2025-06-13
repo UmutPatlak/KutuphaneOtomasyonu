@@ -11,8 +11,8 @@ C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\Kutuphan
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.GirisEKrani.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.UyeKayit.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.Program.resources
-C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.PersonelGirisEkrani.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.UyeProfilBilgileri.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.Alinan_Kitaplar.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.PersonelBilgileri.resources
 C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.Kitaplar.resources
+C:\Users\umut_\OneDrive\Masaüstü\Yeni klasör (4)\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\KutuphaneOtomasyonu.PersonelGiris.resources

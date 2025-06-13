@@ -30,20 +30,23 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxKitapAd = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxYazarAd = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxYayinevi = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxRafno = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBoxTur = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBoxSayfa = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.maskedTextboxKitapKAyit = new System.Windows.Forms.MaskedTextBox();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -57,27 +60,27 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(207, 309);
+            this.button1.Location = new System.Drawing.Point(284, 332);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 42);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Kayit Et";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // textBoxKitapAd
             // 
-            this.textBox1.Location = new System.Drawing.Point(238, 78);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 2;
+            this.textBoxKitapAd.Location = new System.Drawing.Point(238, 78);
+            this.textBoxKitapAd.Name = "textBoxKitapAd";
+            this.textBoxKitapAd.Size = new System.Drawing.Size(100, 22);
+            this.textBoxKitapAd.TabIndex = 2;
             // 
-            // textBox2
+            // textBoxYazarAd
             // 
-            this.textBox2.Location = new System.Drawing.Point(238, 111);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 4;
+            this.textBoxYazarAd.Location = new System.Drawing.Point(238, 111);
+            this.textBoxYazarAd.Name = "textBoxYazarAd";
+            this.textBoxYazarAd.Size = new System.Drawing.Size(100, 22);
+            this.textBoxYazarAd.TabIndex = 4;
             // 
             // label2
             // 
@@ -88,12 +91,12 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Yazar Adi";
             // 
-            // textBox3
+            // textBoxYayinevi
             // 
-            this.textBox3.Location = new System.Drawing.Point(238, 143);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 6;
+            this.textBoxYayinevi.Location = new System.Drawing.Point(238, 143);
+            this.textBoxYayinevi.Name = "textBoxYayinevi";
+            this.textBoxYayinevi.Size = new System.Drawing.Size(100, 22);
+            this.textBoxYayinevi.TabIndex = 6;
             // 
             // label3
             // 
@@ -104,12 +107,12 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Yayinevi";
             // 
-            // textBox4
+            // textBoxRafno
             // 
-            this.textBox4.Location = new System.Drawing.Point(238, 236);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 12;
+            this.textBoxRafno.Location = new System.Drawing.Point(238, 236);
+            this.textBoxRafno.Name = "textBoxRafno";
+            this.textBoxRafno.Size = new System.Drawing.Size(100, 22);
+            this.textBoxRafno.TabIndex = 12;
             // 
             // label4
             // 
@@ -120,12 +123,12 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Raf Numarasi";
             // 
-            // textBox5
+            // textBoxTur
             // 
-            this.textBox5.Location = new System.Drawing.Point(238, 204);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 10;
+            this.textBoxTur.Location = new System.Drawing.Point(238, 204);
+            this.textBoxTur.Name = "textBoxTur";
+            this.textBoxTur.Size = new System.Drawing.Size(100, 22);
+            this.textBoxTur.TabIndex = 10;
             // 
             // label5
             // 
@@ -136,12 +139,12 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Tür";
             // 
-            // textBox6
+            // textBoxSayfa
             // 
-            this.textBox6.Location = new System.Drawing.Point(238, 171);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 8;
+            this.textBoxSayfa.Location = new System.Drawing.Point(238, 171);
+            this.textBoxSayfa.Name = "textBoxSayfa";
+            this.textBoxSayfa.Size = new System.Drawing.Size(100, 22);
+            this.textBoxSayfa.TabIndex = 8;
             // 
             // label6
             // 
@@ -152,45 +155,72 @@
             this.label6.TabIndex = 7;
             this.label6.Text = "Kitap Sayfasi";
             // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(238, 264);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
-            this.textBox7.TabIndex = 14;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(130, 270);
+            this.label7.Location = new System.Drawing.Point(126, 275);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(106, 16);
             this.label7.TabIndex = 13;
             this.label7.Text = "Kitap Kayit Tarihi";
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.Location = new System.Drawing.Point(12, 19);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(294, 32);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "KITAP KAYIT EKRANI";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(621, 61);
+            this.panel1.TabIndex = 40;
+            // 
+            // maskedTextboxKitapKAyit
+            // 
+            this.maskedTextboxKitapKAyit.Location = new System.Drawing.Point(256, 272);
+            this.maskedTextboxKitapKAyit.Mask = "00-00-0000";
+            this.maskedTextboxKitapKAyit.Name = "maskedTextboxKitapKAyit";
+            this.maskedTextboxKitapKAyit.Size = new System.Drawing.Size(73, 22);
+            this.maskedTextboxKitapKAyit.TabIndex = 41;
+            this.maskedTextboxKitapKAyit.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextboxKayitT_MaskInputRejected);
+            // 
             // KayitEkrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1122, 550);
-            this.Controls.Add(this.textBox7);
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.ClientSize = new System.Drawing.Size(621, 512);
+            this.Controls.Add(this.maskedTextboxKitapKAyit);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBoxRafno);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBoxTur);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBoxSayfa);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxYayinevi);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBoxYazarAd);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxKitapAd);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "KayitEkrani";
             this.Text = "KayitEkrani";
             this.Load += new System.EventHandler(this.KayitEkrani_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,19 +230,21 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxKitapAd;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxYazarAd;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxYayinevi;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxRafno;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBoxTur;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxSayfa;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.MaskedTextBox maskedTextboxKitapKAyit;
     }
 }

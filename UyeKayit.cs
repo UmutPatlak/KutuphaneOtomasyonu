@@ -21,5 +21,23 @@ namespace KutuphaneOtomasyonu
         {
 
         }
+
+        private void UyeKayit_Load(object sender, EventArgs e)
+        {
+            UyeBilgileriSinifi uyebilgilerisinifi = new UyeBilgileriSinifi();
+
+            textBoxUyeAd.Text = uyebilgilerisinifi.uyeKullaniciAd;
+            textBoxUyeAdres.Text = uyebilgilerisinifi.uyeAdres;
+            textBoxUyeKullaniciGiris.Text = uyebilgilerisinifi.uyeKullaniciAd;
+            textBoxUyeSifre.Text = uyebilgilerisinifi.uyeSifre; 
+            textBoxUyeOkul.Text = uyebilgilerisinifi.uyeOkul;
+            textBoxUyeSoyad.Text = uyebilgilerisinifi.uyeSoyAd;
+            maskedTextboxUyeTelefon.Text = uyebilgilerisinifi.uyeTel;
+            maskedTextUyeTC.Text = uyebilgilerisinifi.uyeTC;
+            maskedTextboxuyeDT.Text= uyebilgilerisinifi.uyeDT;
+            maskedTextBoxuyeKT.Text = uyebilgilerisinifi.uyeKayitTarihi; 
+
+
+        }
     }
 }

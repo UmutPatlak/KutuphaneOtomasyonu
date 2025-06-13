@@ -61,9 +61,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(3, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(254, 44);
+            this.label1.Size = new System.Drawing.Size(441, 44);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Profil Bilgileri";
+            this.label1.Text = "UYE Profil Bilgileri";
             // 
             // panel1
             // 

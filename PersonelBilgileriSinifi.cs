@@ -8,15 +8,16 @@ namespace KutuphaneOtomasyonu
 {
     class PersonelBilgileriSinifi
     {
-        public string kullaniciAdi { get; set; }
-        public string sifre { get; set; }
-        public int tc { get; set; }
-        public string ad { get; set; }
-        public string soyAd { get; set; }
-        public string Adres { get; set; }
-        public string eMail { get; set; }
-        public DateTime kayitTarihi { get; set; }
-        public Boolean Durum { get; set; }
+        public string persokullaniciAdi { get; set; }
+        public string persosifre { get; set; }
+        public string persotc { get; set; }
+        public string persoad { get; set; }
+        public string persosoyAd { get; set; }
+        public string persoAdres { get; set; }
+        public string persoeMail { get; set; }
+        public string persokayitTarihi { get; set; }
+        public string persoDurum { get; set; }
+        public string persoTel { get; set; }
 
 
     }

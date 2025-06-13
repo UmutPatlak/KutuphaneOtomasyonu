@@ -24,6 +24,21 @@ namespace KutuphaneOtomasyonu
 
         private void KayitEkrani_Load(object sender, EventArgs e)
         {
+            KitapSinifi kitapsinifi = new KitapSinifi();
+            textBoxKitapAd.Text = kitapsinifi.kitapAdi;
+            textBoxRafno.Text = kitapsinifi.kitapRafNo.ToString();
+            textBoxSayfa.Text = kitapsinifi.kitapsayfasayisi.ToString();
+            textBoxTur.Text = kitapsinifi.kitapTur;
+            textBoxYayinevi.Text = kitapsinifi.kitapyayineviAdi;
+            textBoxYazarAd.Text = kitapsinifi.kitapyazarAdi;
+            maskedTextboxKitapKAyit.Text = kitapsinifi.kitapKayitTarihi; 
+
+
+               
+        }
+
+        private void maskedTextboxKayitT_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
 
         }
     }

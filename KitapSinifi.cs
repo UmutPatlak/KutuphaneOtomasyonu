@@ -13,9 +13,9 @@ namespace KutuphaneOtomasyonu
 
         public string kitapyayineviAdi { get; set; }
 
-        public string kitapRafNo { get; set; }
+        public int kitapRafNo { get; set; }
         public string kitapTur { get; set; }
-        public DateTime kitapKayitTarihi { get; set; }
-
+        public string kitapKayitTarihi { get; set; }
+        public int kitapsayfasayisi { get; set; }
     }
 }
