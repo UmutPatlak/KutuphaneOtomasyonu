@@ -12,6 +12,7 @@ namespace KutuphaneOtomasyonu
 {
     public partial class GirisEkrani: Form
     {
+        
         public GirisEkrani()
         {
             InitializeComponent();
@@ -27,6 +28,8 @@ namespace KutuphaneOtomasyonu
         {
             panelpersonel.Visible = false;
 
+
+           
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -59,16 +62,35 @@ namespace KutuphaneOtomasyonu
 
 
         }
-
-        private void button2_Click(object sender, EventArgs e)
+      
+        public void button2_Click(object sender, EventArgs e)
         {
+            string girilenKullanici = textBoxKullOgrenci.Text;
+            string girilenSifre = textBoxSifreOgrenci.Text;
 
-            UyeProfilBilgileri uye = new UyeProfilBilgileri();
-            uye.Show();
+            if (girilenKullanici == kullaniciveri.uyeKullaniciAd &&
+                girilenSifre == kullaniciveri.uyeSifre)
+            {
+                MessageBox.Show("Giriş başarılı!");
+
+                UyeProfilBilgileri bilgi = new UyeProfilBilgileri();
+                bilgi.Show(); 
+                    
+
+            }
+            else
+            {
+                MessageBox.Show("Kullanıcı adı veya şifre hatalı.");
+            }
+        }
+
+
+        private void panelpersonel_Paint(object sender, PaintEventArgs e)
+        {
 
         }
 
-        private void panelpersonel_Paint(object sender, PaintEventArgs e)
+        private void panelogrenci_Paint(object sender, PaintEventArgs e)
         {
 
         }

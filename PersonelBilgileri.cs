@@ -24,17 +24,17 @@ namespace KutuphaneOtomasyonu
 
         private void PersonelBilgileri_Load(object sender, EventArgs e)
         {
-            PersonelBilgileriSinifi personelsinifi = new PersonelBilgileriSinifi();
-            textAd.Text = personelsinifi.persoad;
-            textAdres.Text = personelsinifi.persoAdres;
-            textBoxEmail.Text = personelsinifi.persoeMail;
-            textBoxKullanciAdi.Text = personelsinifi.persokullaniciAdi;
-            textBoxSifre.Text = personelsinifi.persosifre;
-            comboBox1.SelectedItem = personelsinifi.persoDurum; 
-            maskedTextTel.Text = personelsinifi.persoTel;
-            maskedTextTC.Text = personelsinifi.persotc;
-            maskedTextboxKayitT.Text = personelsinifi.persokayitTarihi;
-            textSoyad.Text = personelsinifi.persosoyAd; 
+            
+            textAd.Text = PersonelBilgileriSinifi.persoad;
+            textAdres.Text = PersonelBilgileriSinifi.persoAdres;
+            textBoxEmail.Text = PersonelBilgileriSinifi.persoeMail;
+            textBoxKullanciAdi.Text = PersonelBilgileriSinifi.persokullaniciAdi;
+            textBoxSifre.Text = PersonelBilgileriSinifi.persosifre;
+            comboBox1.SelectedItem = PersonelBilgileriSinifi.persoDurum; 
+            maskedTextTel.Text = PersonelBilgileriSinifi.persoTel;
+            maskedTextTC.Text = PersonelBilgileriSinifi.persotc;
+            maskedTextboxKayitT.Text = PersonelBilgileriSinifi.persokayitTarihi;
+            textSoyad.Text = PersonelBilgileriSinifi.persosoyAd; 
 
 
 

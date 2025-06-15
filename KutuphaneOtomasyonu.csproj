@@ -64,6 +64,7 @@
     <Compile Include="KayitEkrani.Designer.cs">
       <DependentUpon>KayitEkrani.cs</DependentUpon>
     </Compile>
+    <Compile Include="KitapEklemeListelemeSilmeIslemleri.cs" />
     <Compile Include="Kitaplar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +72,11 @@
       <DependentUpon>Kitaplar.cs</DependentUpon>
     </Compile>
     <Compile Include="KitapSinifi.cs" />
+    <Compile Include="KutuphaneOtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KutuphaneOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="PersonelBilgileri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlBaglama.cs" />
     <Compile Include="UyeBilgileriSinifi.cs" />
     <Compile Include="UyeKayit.cs">
       <SubType>Form</SubType>
@@ -136,6 +143,17 @@
     <EmbeddedResource Include="UyeProfilBilgileri.resx">
       <DependentUpon>UyeProfilBilgileri.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="KutuphaneOtomasyonuDataSet.xsc">
+      <DependentUpon>KutuphaneOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KutuphaneOtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KutuphaneOtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KutuphaneOtomasyonuDataSet.xss">
+      <DependentUpon>KutuphaneOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

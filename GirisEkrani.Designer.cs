@@ -34,9 +34,9 @@
             this.panelogrenci = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxKullOgrenci = new System.Windows.Forms.TextBox();
             this.kullnci = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxSifreOgrenci = new System.Windows.Forms.TextBox();
             this.panelpersonel = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -82,17 +82,18 @@
             // 
             this.panelogrenci.Controls.Add(this.button2);
             this.panelogrenci.Controls.Add(this.label1);
-            this.panelogrenci.Controls.Add(this.textBox2);
+            this.panelogrenci.Controls.Add(this.textBoxKullOgrenci);
             this.panelogrenci.Controls.Add(this.kullnci);
-            this.panelogrenci.Controls.Add(this.textBox1);
+            this.panelogrenci.Controls.Add(this.textBoxSifreOgrenci);
             this.panelogrenci.Location = new System.Drawing.Point(353, 262);
             this.panelogrenci.Name = "panelogrenci";
             this.panelogrenci.Size = new System.Drawing.Size(272, 252);
             this.panelogrenci.TabIndex = 16;
+            this.panelogrenci.Paint += new System.Windows.Forms.PaintEventHandler(this.panelogrenci_Paint);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(49, 175);
+            this.button2.Location = new System.Drawing.Point(49, 191);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(220, 35);
             this.button2.TabIndex = 22;
@@ -109,12 +110,12 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "Şifre :";
             // 
-            // textBox2
+            // textBoxKullOgrenci
             // 
-            this.textBox2.Location = new System.Drawing.Point(94, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(139, 22);
-            this.textBox2.TabIndex = 17;
+            this.textBoxKullOgrenci.Location = new System.Drawing.Point(94, 91);
+            this.textBoxKullOgrenci.Name = "textBoxKullOgrenci";
+            this.textBoxKullOgrenci.Size = new System.Drawing.Size(139, 22);
+            this.textBoxKullOgrenci.TabIndex = 17;
             // 
             // kullnci
             // 
@@ -125,12 +126,12 @@
             this.kullnci.TabIndex = 19;
             this.kullnci.Text = "Kullanıcı Adı :";
             // 
-            // textBox1
+            // textBoxSifreOgrenci
             // 
-            this.textBox1.Location = new System.Drawing.Point(94, 127);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 22);
-            this.textBox1.TabIndex = 18;
+            this.textBoxSifreOgrenci.Location = new System.Drawing.Point(94, 127);
+            this.textBoxSifreOgrenci.Name = "textBoxSifreOgrenci";
+            this.textBoxSifreOgrenci.Size = new System.Drawing.Size(139, 22);
+            this.textBoxSifreOgrenci.TabIndex = 18;
             // 
             // panelpersonel
             // 
@@ -218,9 +219,9 @@
         private System.Windows.Forms.Panel panelogrenci;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxKullOgrenci;
         private System.Windows.Forms.Label kullnci;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxSifreOgrenci;
         private System.Windows.Forms.Panel panelpersonel;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label5;

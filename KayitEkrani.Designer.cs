@@ -51,7 +51,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxKitapNo = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -85,6 +85,7 @@
             this.button4.TabIndex = 87;
             this.button4.Text = "Tum Kitaplar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // maskedTextboxKitapKAyit
             // 
@@ -203,6 +204,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dataGridView1.Location = new System.Drawing.Point(0, 349);
@@ -210,8 +212,10 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1040, 163);
             this.dataGridView1.TabIndex = 72;
+            this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEnter);
             // 
             // Guncelle
             // 
@@ -221,24 +225,27 @@
             this.Guncelle.TabIndex = 71;
             this.Guncelle.Text = "Guncelle";
             this.Guncelle.UseVisualStyleBackColor = true;
+            this.Guncelle.Click += new System.EventHandler(this.Guncelle_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(709, 194);
+            this.button2.Location = new System.Drawing.Point(709, 271);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(227, 56);
             this.button2.TabIndex = 70;
             this.button2.Text = "Kitap Sil";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(709, 250);
+            this.button1.Location = new System.Drawing.Point(709, 209);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(227, 56);
             this.button1.TabIndex = 69;
             this.button1.Text = "Kitap Ekle";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label8
             // 
@@ -249,12 +256,12 @@
             this.label8.TabIndex = 88;
             this.label8.Text = "Kitap No";
             // 
-            // textBox1
+            // textBoxKitapNo
             // 
-            this.textBox1.Location = new System.Drawing.Point(215, 79);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 89;
+            this.textBoxKitapNo.Location = new System.Drawing.Point(215, 79);
+            this.textBoxKitapNo.Name = "textBoxKitapNo";
+            this.textBoxKitapNo.Size = new System.Drawing.Size(100, 22);
+            this.textBoxKitapNo.TabIndex = 89;
             // 
             // KayitEkrani
             // 
@@ -263,7 +270,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1040, 512);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxKitapNo);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.maskedTextboxKitapKAyit);
@@ -319,6 +326,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxKitapNo;
     }
 }

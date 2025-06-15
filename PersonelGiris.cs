@@ -35,5 +35,10 @@ namespace KutuphaneOtomasyonu
             PersonelBilgileri bilgi = new PersonelBilgileri();
             bilgi.Show();
         }
+
+        private void PersonelGiris_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

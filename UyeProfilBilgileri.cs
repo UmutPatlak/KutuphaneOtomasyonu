@@ -10,10 +10,16 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyonu
 {
+
+
+
     public partial class UyeProfilBilgileri: Form
     {
+
         public UyeProfilBilgileri()
         {
+           
+
             InitializeComponent();
         }
 
@@ -31,6 +37,13 @@ namespace KutuphaneOtomasyonu
 
         private void UyeProfilBilgileri_Load(object sender, EventArgs e)
         {
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+             
+
 
         }
     }

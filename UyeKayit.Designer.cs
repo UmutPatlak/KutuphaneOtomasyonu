@@ -51,12 +51,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.maskedTextboxuyeDT = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBoxuyeKT = new System.Windows.Forms.MaskedTextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxUyeAdres
             // 
-            this.textBoxUyeAdres.Location = new System.Drawing.Point(193, 303);
+            this.textBoxUyeAdres.Location = new System.Drawing.Point(167, 267);
             this.textBoxUyeAdres.Name = "textBoxUyeAdres";
             this.textBoxUyeAdres.Size = new System.Drawing.Size(100, 22);
             this.textBoxUyeAdres.TabIndex = 23;
@@ -64,7 +66,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(62, 306);
+            this.label5.Location = new System.Drawing.Point(36, 270);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(90, 16);
             this.label5.TabIndex = 22;
@@ -72,7 +74,7 @@
             // 
             // textBoxUyeOkul
             // 
-            this.textBoxUyeOkul.Location = new System.Drawing.Point(193, 270);
+            this.textBoxUyeOkul.Location = new System.Drawing.Point(167, 234);
             this.textBoxUyeOkul.Name = "textBoxUyeOkul";
             this.textBoxUyeOkul.Size = new System.Drawing.Size(100, 22);
             this.textBoxUyeOkul.TabIndex = 21;
@@ -80,7 +82,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(62, 276);
+            this.label6.Location = new System.Drawing.Point(36, 240);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(62, 16);
             this.label6.TabIndex = 20;
@@ -89,7 +91,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(62, 245);
+            this.label3.Location = new System.Drawing.Point(36, 209);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 16);
             this.label3.TabIndex = 18;
@@ -98,7 +100,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(62, 213);
+            this.label2.Location = new System.Drawing.Point(36, 177);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 16);
             this.label2.TabIndex = 16;
@@ -106,14 +108,14 @@
             // 
             // textBoxUyeAd
             // 
-            this.textBoxUyeAd.Location = new System.Drawing.Point(193, 154);
+            this.textBoxUyeAd.Location = new System.Drawing.Point(167, 118);
             this.textBoxUyeAd.Name = "textBoxUyeAd";
             this.textBoxUyeAd.Size = new System.Drawing.Size(100, 22);
             this.textBoxUyeAd.TabIndex = 15;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(482, 276);
+            this.button1.Location = new System.Drawing.Point(473, 240);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(117, 57);
             this.button1.TabIndex = 14;
@@ -124,7 +126,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(62, 160);
+            this.label1.Location = new System.Drawing.Point(36, 124);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 16);
             this.label1.TabIndex = 13;
@@ -133,7 +135,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(373, 183);
+            this.label4.Location = new System.Drawing.Point(347, 147);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(120, 16);
             this.label4.TabIndex = 24;
@@ -142,7 +144,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(373, 216);
+            this.label7.Location = new System.Drawing.Point(347, 180);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(68, 16);
             this.label7.TabIndex = 25;
@@ -150,14 +152,14 @@
             // 
             // textBoxUyeSifre
             // 
-            this.textBoxUyeSifre.Location = new System.Drawing.Point(499, 216);
+            this.textBoxUyeSifre.Location = new System.Drawing.Point(473, 180);
             this.textBoxUyeSifre.Name = "textBoxUyeSifre";
             this.textBoxUyeSifre.Size = new System.Drawing.Size(100, 22);
             this.textBoxUyeSifre.TabIndex = 27;
             // 
             // textBoxUyeKullaniciGiris
             // 
-            this.textBoxUyeKullaniciGiris.Location = new System.Drawing.Point(499, 183);
+            this.textBoxUyeKullaniciGiris.Location = new System.Drawing.Point(473, 147);
             this.textBoxUyeKullaniciGiris.Name = "textBoxUyeKullaniciGiris";
             this.textBoxUyeKullaniciGiris.Size = new System.Drawing.Size(100, 22);
             this.textBoxUyeKullaniciGiris.TabIndex = 26;
@@ -165,7 +167,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(67, 334);
+            this.label8.Location = new System.Drawing.Point(41, 298);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(53, 16);
             this.label8.TabIndex = 40;
@@ -174,7 +176,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(67, 362);
+            this.label9.Location = new System.Drawing.Point(41, 326);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(101, 16);
             this.label9.TabIndex = 42;
@@ -182,7 +184,7 @@
             // 
             // textBoxUyeSoyad
             // 
-            this.textBoxUyeSoyad.Location = new System.Drawing.Point(193, 180);
+            this.textBoxUyeSoyad.Location = new System.Drawing.Point(167, 144);
             this.textBoxUyeSoyad.Name = "textBoxUyeSoyad";
             this.textBoxUyeSoyad.Size = new System.Drawing.Size(100, 22);
             this.textBoxUyeSoyad.TabIndex = 45;
@@ -190,7 +192,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(62, 186);
+            this.label10.Location = new System.Drawing.Point(36, 150);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(75, 16);
             this.label10.TabIndex = 44;
@@ -198,7 +200,7 @@
             // 
             // maskedTextUyeTC
             // 
-            this.maskedTextUyeTC.Location = new System.Drawing.Point(193, 331);
+            this.maskedTextUyeTC.Location = new System.Drawing.Point(167, 295);
             this.maskedTextUyeTC.Mask = "00000000000";
             this.maskedTextUyeTC.Name = "maskedTextUyeTC";
             this.maskedTextUyeTC.Size = new System.Drawing.Size(100, 22);
@@ -206,7 +208,7 @@
             // 
             // maskedTextboxUyeTelefon
             // 
-            this.maskedTextboxUyeTelefon.Location = new System.Drawing.Point(193, 213);
+            this.maskedTextboxUyeTelefon.Location = new System.Drawing.Point(167, 177);
             this.maskedTextboxUyeTelefon.Mask = "(999) 000-0000";
             this.maskedTextboxUyeTelefon.Name = "maskedTextboxUyeTelefon";
             this.maskedTextboxUyeTelefon.Size = new System.Drawing.Size(100, 22);
@@ -230,12 +232,12 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 61);
+            this.panel1.Size = new System.Drawing.Size(974, 61);
             this.panel1.TabIndex = 50;
             // 
             // maskedTextboxuyeDT
             // 
-            this.maskedTextboxuyeDT.Location = new System.Drawing.Point(193, 245);
+            this.maskedTextboxuyeDT.Location = new System.Drawing.Point(167, 209);
             this.maskedTextboxuyeDT.Mask = "00-00-0000";
             this.maskedTextboxuyeDT.Name = "maskedTextboxuyeDT";
             this.maskedTextboxuyeDT.Size = new System.Drawing.Size(87, 22);
@@ -243,17 +245,28 @@
             // 
             // maskedTextBoxuyeKT
             // 
-            this.maskedTextBoxuyeKT.Location = new System.Drawing.Point(193, 362);
+            this.maskedTextBoxuyeKT.Location = new System.Drawing.Point(167, 326);
             this.maskedTextBoxuyeKT.Mask = "00-00-0000";
             this.maskedTextBoxuyeKT.Name = "maskedTextBoxuyeKT";
             this.maskedTextBoxuyeKT.Size = new System.Drawing.Size(87, 22);
             this.maskedTextBoxuyeKT.TabIndex = 52;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(54, 384);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(691, 146);
+            this.dataGridView1.TabIndex = 53;
+            // 
             // UyeKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(974, 577);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.maskedTextBoxuyeKT);
             this.Controls.Add(this.maskedTextboxuyeDT);
             this.Controls.Add(this.panel1);
@@ -281,6 +294,7 @@
             this.Load += new System.EventHandler(this.UyeKayit_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -310,5 +324,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.MaskedTextBox maskedTextboxuyeDT;
         private System.Windows.Forms.MaskedTextBox maskedTextBoxuyeKT;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

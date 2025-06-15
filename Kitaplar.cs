@@ -26,5 +26,10 @@ namespace KutuphaneOtomasyonu
         {
 
         }
+
+        private void Kitaplar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

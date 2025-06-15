@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace KutuphaneOtomasyonu
 {
-    class PersonelBilgileriSinifi
+   public  static class PersonelBilgileriSinifi
     {
-        public string persokullaniciAdi { get; set; }
-        public string persosifre { get; set; }
-        public string persotc { get; set; }
-        public string persoad { get; set; }
-        public string persosoyAd { get; set; }
-        public string persoAdres { get; set; }
-        public string persoeMail { get; set; }
-        public string persokayitTarihi { get; set; }
-        public string persoDurum { get; set; }
-        public string persoTel { get; set; }
+        public static string persokullaniciAdi { get; set; }
+        public static string persosifre { get; set; }
+        public static  string persotc { get; set; }
+        public static string persoad { get; set; }
+        public static string persosoyAd { get; set; }
+        public static string persoAdres { get; set; }
+        public static string persoeMail { get; set; }
+        public static string persokayitTarihi { get; set; }
+        public static string persoDurum { get; set; }
+        public static string persoTel { get; set; }
 
 
     }

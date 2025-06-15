@@ -137,6 +137,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "PersonelGiris";
             this.Text = "PersonelGiris";
+            this.Load += new System.EventHandler(this.PersonelGiris_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
