@@ -64,7 +64,6 @@
     <Compile Include="KayitEkrani.Designer.cs">
       <DependentUpon>KayitEkrani.cs</DependentUpon>
     </Compile>
-    <Compile Include="KitapEklemeListelemeSilmeIslemleri.cs" />
     <Compile Include="Kitaplar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,7 +91,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SqlBaglama.cs" />
     <Compile Include="UyeBilgileriSinifi.cs" />
     <Compile Include="UyeKayit.cs">
       <SubType>Form</SubType>

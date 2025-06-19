@@ -52,6 +52,11 @@
             this.maskedTextboxuyeDT = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBoxuyeKT = new System.Windows.Forms.MaskedTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBoxUYEID = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -115,11 +120,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(473, 240);
+            this.button1.Location = new System.Drawing.Point(473, 232);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(117, 57);
             this.button1.TabIndex = 14;
-            this.button1.Text = "Kayit Et";
+            this.button1.Text = "Uyeyi Kayit Et";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -253,19 +258,77 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(54, 384);
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 371);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(691, 146);
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(974, 206);
             this.dataGridView1.TabIndex = 53;
+            this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEnter);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(350, 234);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(117, 57);
+            this.button2.TabIndex = 54;
+            this.button2.Text = "Uyeleri Getir";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(596, 232);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(117, 57);
+            this.button3.TabIndex = 55;
+            this.button3.Text = "Uyeyi Sil";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(719, 234);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(117, 57);
+            this.button4.TabIndex = 56;
+            this.button4.Text = "Uyeyi Guncelle";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // textBoxUYEID
+            // 
+            this.textBoxUYEID.Location = new System.Drawing.Point(167, 90);
+            this.textBoxUYEID.Name = "textBoxUYEID";
+            this.textBoxUYEID.Size = new System.Drawing.Size(100, 22);
+            this.textBoxUYEID.TabIndex = 58;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(36, 96);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(48, 16);
+            this.label12.TabIndex = 57;
+            this.label12.Text = "Uye ID";
             // 
             // UyeKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(974, 577);
+            this.Controls.Add(this.textBoxUYEID);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.maskedTextBoxuyeKT);
             this.Controls.Add(this.maskedTextboxuyeDT);
@@ -325,5 +388,10 @@
         private System.Windows.Forms.MaskedTextBox maskedTextboxuyeDT;
         private System.Windows.Forms.MaskedTextBox maskedTextBoxuyeKT;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBoxUYEID;
+        private System.Windows.Forms.Label label12;
     }
 }

@@ -219,7 +219,7 @@
             // 
             // Guncelle
             // 
-            this.Guncelle.Location = new System.Drawing.Point(709, 138);
+            this.Guncelle.Location = new System.Drawing.Point(709, 147);
             this.Guncelle.Name = "Guncelle";
             this.Guncelle.Size = new System.Drawing.Size(227, 56);
             this.Guncelle.TabIndex = 71;
