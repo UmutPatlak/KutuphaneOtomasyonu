@@ -70,8 +70,8 @@ namespace KutuphaneOtomasyonu
             UyeBilgileriSinifi.uyeAd = textBoxUyeAd.Text;
             UyeBilgileriSinifi.uyeAdres = textBoxUyeAdres.Text;
 
-            kullaniciveri.uyeKullaniciAd = textBoxUyeKullaniciGiris.Text;
-            kullaniciveri.uyeSifre = textBoxUyeSifre.Text;
+            UyeBilgileriSinifi.uyeKullaniciAd = textBoxUyeKullaniciGiris.Text;
+            UyeBilgileriSinifi.uyeSifre = textBoxUyeSifre.Text;
 
             UyeBilgileriSinifi.uyeOkul = textBoxUyeOkul.Text;
             UyeBilgileriSinifi.uyeSoyAd = textBoxUyeSoyad.Text;
@@ -114,17 +114,17 @@ namespace KutuphaneOtomasyonu
         
         private void dataGridView1_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
-            textBoxUYEID.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();           // UYEID
-            textBoxUyeAd.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();           // UYEAD
-            textBoxUyeSoyad.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();        // UYESOYAD
-            maskedTextboxuyeDT.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();     // UYEDT
-            maskedTextBoxuyeKT.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();      // UYEKAYITTARIHI
-            textBoxUyeOkul.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();          // UYEOKUL
-            textBoxUyeKullaniciGiris.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();// UYEKULLANICIAD
-            textBoxUyeSifre.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();         // UYESIFRE
-            textBoxUyeAdres.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();         // UYEADRES
-            maskedTextUyeTC.Text = dataGridView1.CurrentRow.Cells[9].Value.ToString();         // UYETC
-            maskedTextboxUyeTelefon.Text = dataGridView1.CurrentRow.Cells[10].Value.ToString();// UYETEL
+            textBoxUYEID.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();        
+            textBoxUyeAd.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();           
+            textBoxUyeSoyad.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();       
+            maskedTextboxuyeDT.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();     
+            maskedTextBoxuyeKT.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();      
+            textBoxUyeOkul.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();         
+            textBoxUyeKullaniciGiris.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
+            textBoxUyeSifre.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();        
+            textBoxUyeAdres.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();       
+            maskedTextUyeTC.Text = dataGridView1.CurrentRow.Cells[9].Value.ToString();         
+            maskedTextboxUyeTelefon.Text = dataGridView1.CurrentRow.Cells[10].Value.ToString();
 
 
         }

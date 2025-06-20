@@ -7,11 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient; 
 
 namespace KutuphaneOtomasyonu
 {
     public partial class PersonelGiris: Form
     {
+        SqlConnection baglanti;
+        SqlDataReader oku;
+        SqlCommand komut; 
+
         public PersonelGiris()
         {
             InitializeComponent();
@@ -37,6 +42,25 @@ namespace KutuphaneOtomasyonu
         }
 
         private void PersonelGiris_Load(object sender, EventArgs e)
+        {
+            SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-HGGVOAC\\SQLEXPRESS;Initial Catalog=KutuphaneOtomasyonu;Integrated Security=True;TrustServerCertificate=True");
+            baglanti.Open();
+
+            komut = new SqlCommand("SELECT TOP 1 PERSONELAD, PERSONELSOYAD FROM PERSONEL", baglanti); 
+            oku = komut.ExecuteReader();
+
+            if (oku.Read()) 
+            {
+                adlabel.Text = oku["PERSONELAD"].ToString();
+                soyadlabel.Text = oku["PERSONELSOYAD"].ToString();
+            }
+
+            oku.Close();
+            baglanti.Close();
+
+        }
+
+        private void adlabel_Click(object sender, EventArgs e)
         {
 
         }

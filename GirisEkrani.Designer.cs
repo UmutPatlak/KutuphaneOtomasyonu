@@ -87,13 +87,13 @@
             this.panelogrenci.Controls.Add(this.textBoxSifreOgrenci);
             this.panelogrenci.Location = new System.Drawing.Point(353, 262);
             this.panelogrenci.Name = "panelogrenci";
-            this.panelogrenci.Size = new System.Drawing.Size(272, 252);
+            this.panelogrenci.Size = new System.Drawing.Size(312, 255);
             this.panelogrenci.TabIndex = 16;
             this.panelogrenci.Paint += new System.Windows.Forms.PaintEventHandler(this.panelogrenci_Paint);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(49, 191);
+            this.button2.Location = new System.Drawing.Point(13, 182);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(220, 35);
             this.button2.TabIndex = 22;
@@ -142,13 +142,13 @@
             this.panelpersonel.Controls.Add(this.textBox4);
             this.panelpersonel.Location = new System.Drawing.Point(353, 262);
             this.panelpersonel.Name = "panelpersonel";
-            this.panelpersonel.Size = new System.Drawing.Size(354, 255);
+            this.panelpersonel.Size = new System.Drawing.Size(312, 255);
             this.panelpersonel.TabIndex = 23;
             this.panelpersonel.Paint += new System.Windows.Forms.PaintEventHandler(this.panelpersonel_Paint);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(49, 175);
+            this.button3.Location = new System.Drawing.Point(76, 182);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(220, 35);
             this.button3.TabIndex = 22;
